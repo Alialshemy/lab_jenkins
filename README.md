@@ -27,7 +27,7 @@ Or press "<span style="color:green">Code</span>" button then chose "Download ZIP
 ## ansible
 
 - intall jenkins in the first ubuntu ec2 
-- intall docker in the first ubuntu ec2  agent container and public key in docker
+- intall docker in the first ubuntu ec2  and run agent container  docker
 - add public key of jenkins machine in the second ubuntu ec2(agent)
 - intall package  needed by jenkins in ubuntu  agent
 ---

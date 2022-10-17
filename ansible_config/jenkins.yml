@@ -1,0 +1,65 @@
+- become: yes
+  hosts: all
+  name: agent configure
+  tasks:
+  ###################################################################################
+  ##########################  install Jenkins and Doker  #######################################
+    - name: update cash
+      apt: 
+        update_cache: yes
+        
+           
+    - name: install java jdk  
+      apt: 
+        name: openjdk-11-jdk
+        state: present
+           
+    - name: install docker
+      apt: 
+        name: docker.io
+        state: present
+        update_cache: yes
+    - name: install  wget 
+      apt: 
+          name: wget
+          state: present
+    - name: ensure the jenkins apt repository key is installed
+      ansible.builtin.apt_key:
+        url: https://pkg.jenkins.io/debian/jenkins.io.key 
+        state: present
+    - name: ensure the repository is configured
+      apt_repository: 
+          repo: 'deb https://pkg.jenkins.io/debian-stable binary/'
+          state: present
+    - name: install jenkins 
+      apt:
+         update_cache: yes
+         name: jenkins
+         state: present
+    - name: enable jenkins server
+      ansible.builtin.service:
+        name: jenkins
+        state: started
+        enabled: yes
+    - name: add public private key
+      become: no
+      command: ssh-keygen -t rsa -N "" -f /home/ubuntu/.ssh/id_rsa
+    - name: Store file into /tmp/fetched/host.example.com/tmp/somefile
+      fetch:
+       src: /home/ubuntu/.ssh/id_rsa.pub
+       dest: ./
+    - name: Create agent contaner container
+      command: docker run -d -v /var/run/docker.sock:/var/run/docker.sock -e "JENKINS_AGENT_SSH_PUBKEY=`cat ~/.ssh/id_rsa.pub`" alimohamed125/jenkins-agent
+
+        
+  
+
+
+
+           
+
+   
+      
+    
+
+ 

@@ -14,7 +14,7 @@ Or press "<span style="color:green">Code</span>" button then chose "Download ZIP
 ## Our Features
 
 - Terraform Create infrastructure 
-- terraform run automatically ansible to configure two ec2 machine
+- terraform run  ansible to configure two ec2 machine
 - ansible configure two machine
 
 ## terraform

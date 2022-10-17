@@ -31,5 +31,8 @@ Or press "<span style="color:green">Code</span>" button then chose "Download ZIP
 - add public key of jenkins machine in the second ubuntu ec2(agent)
 - intall package  needed by jenkins in ubuntu  agent
 ---
+## configure jenkins
+-  add container agent and ec2 agent to jenkins 
+
 
 

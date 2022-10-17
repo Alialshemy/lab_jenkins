@@ -33,7 +33,7 @@ Or press "<span style="color:green">Code</span>" button then chose "Download ZIP
 ---
 ## configure jenkins
 -  add container agent and ec2 agent to jenkins 
--  <img src="https://github.com/Alialshemy/lab_jenkins/blob/image/Screenshot from 2022-10-16 19-43-13" alt="Alialshemy" />
+-  <img src="https://github.com/Alialshemy/lab_jenkins/main/blob/image/Screenshot from 2022-10-16 19-43-13" alt="Alialshemy" />
 
 
 

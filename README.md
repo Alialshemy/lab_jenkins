@@ -13,26 +13,23 @@ Use the version control tool [git](https://git-scm.com/) to clone the project.
 Or press "<span style="color:green">Code</span>" button then chose "Download ZIP"
 ## Our Features
 
-- create two ec2 machine
+- Terraform Create infrastructure 
 - terraform run automatically ansible to configure two ec2 machine
-- ansible intall in the first ec2 jenkins and ssh-agent 
-- and in machine 2 install java and add public key of jenkins server machine in agent machine
+- ansible configure two machine
 
-## Table Layer
+## terraform
 
-- Crate Table
-- List Tables
-- Drop Table
-- Select Table
+- create network in aws
+- create two ubuntu machine
+- run ansible
 
-## Record Layer
 
-- Insert Into Table
-- Select From Table
-- Delete From Table
-- Update Table
+## ansible
+
+- intall jenkins in the first ubuntu ec2 
+- intall docker in the first ubuntu ec2  agent container and public key in docker
+- add public key of jenkins machine in the second ubuntu ec2(agent)
+- intall package  needed by jenkins in ubuntu  agent
 ---
 
-# Contributing
-Pull requests are welcome.
 

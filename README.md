@@ -36,6 +36,17 @@ Or press "<span style="color:green">Code</span>" button then chose "Download ZIP
 -  <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-16 19-43-13.png" />
 -  build and deploy app
 -   <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-16 22-12-31.png" />
+-   simple multi-branch echo the branch name
+-   <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-17 22-40-40.png" />
+-   <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-17 22-41-07.png" />
+-   <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-17 22-36-13.png" />
+-   
+-   configure slack 
+-   <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-17 19-53-15.png" />
+-   credations 
+-    <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-17 22-13-06.png" />
+-    
+-   
 
 
 

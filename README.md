@@ -45,6 +45,11 @@ Or press "<span style="color:green">Code</span>" button then chose "Download ZIP
 -   <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-17 19-53-15.png" />
 -   credations 
 -    <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-17 22-13-06.png" />
+    configure Webhoock in github
+-    <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-20 09-18-14.png" />
+    configure Webhoock in jenkins
+-    <img src="https://github.com/Alialshemy/lab_jenkins/blob/main/image/Screenshot from 2022-10-20 09-22-30.png" />
+   
 -    
 -   
 

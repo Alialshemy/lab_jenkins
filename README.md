@@ -1,8 +1,4 @@
 # lab_jenkins
-# Jenkins Lab
-
-DBMS is a Bash script DataBase Management System
-
 # installation & Run
 Use the version control tool [git](https://git-scm.com/) to clone the project.
 
